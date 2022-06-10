@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+ <div class="container-fluid" >
+    <div class="page-header">
+        <h1 id="header"><u>TIC-TAC-TOE</u></h1>
+        </div>
+    </div>
+ 
+<div id="game">
+    <div data-index="1" class="tile right-border bottom-border"></div>
+    <div data-index="2" class="tile right-border bottom-border"></div>
+    <div data-index="3" class="tile bottom-border"></div>
+    <div data-index="4" class="tile right-border bottom-border"></div>
+    <div data-index="5" class="tile right-border bottom-border"></div>
+    <div data-index="6" class="tile bottom-border"></div>
+    <div data-index="7" class="tile right-border "></div>
+    <div data-index="8" class="tile right-border"></div>
+    <div data-index="9" class="tile"></div>
+    <div id="strike" class="strike"> </div>
+</div>
+<div id="game-end-area" class="hidden"></div>
+    <h2 id="game-end-text"></h2>
+    <button id="play-again"><u>Click Here To Play Again</u></button>
+ 
+
+
+
+
+
+
+
+
+<script src="index.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
